@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&subset=cyrillic');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    font-family: Roboto;
+}
+
+body {
+    background: #ffffff;
+}
+
+body > div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.NRG {
+    margin-top: 20px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 13px;
+    text-align: left;
+}
+
+.logo {
+    margin-left: 104px;
+}
+
+.contacts {
+    position: absolute;
+    margin-top: -52px;
+    right: 10%;
+}
+
+.contacts > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 13px;
+    margin-left: 32px; 
+}
+
+.header {
+    background: #696969;/*#ff2a2a;#c87137;#37c871;*/
+    padding-top: 16px;
+    padding-bottom: 16px;
+    height: 81px;
+    box-shadow: 0 0 5px;
+}
+
+.dark {
+    background: #aaffaa;
+    color: #ffffff;
+}
+
+.light {
+    background: #aaeeff;
+}
+
+.green {
+    /*background: #2aff80;*/
+    background: #ffffff;
+}
+
+.orange {
+    background: #ffccaa;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.line-container {
+    margin: 0px;
+}
+
+.bottom-text {
+    margin-top: 64px;
+    padding-bottom: 32px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.red-background {
+    background: #ff0000;
+}
+
+.four-columns > div {
+    float: left;
+    width: 25%;
+    text-align: center;
+    /*padding: 8px 0 8px 0;
+    border: 1px solid #00bb00;*/
+}
+
+.three-columns > div {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.text-column {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.text-column > p {
+    margin-top: 32px;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 13px;   
+    text-align: left;
+}
+
+.image-column {
+    float: right;
+    width: 39%;
+    text-align: center;
+}
+
+.image-column img {
+    padding-top: 64px;
+}
+
+
+h1 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 13px;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 64px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+h3 {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.card {
+    margin: 8px;
+    box-shadow: 4px 4px 4px #aaaaaa69;
+    border: 2px solid #ffdd55;
+    background: #ffeeaa;
+    color: #424242;
+}
+
+.card > img {
+    padding: 16px 0 0 0;
+}
+
+.call-me-back {
+    padding-left: 40%;
+    height: 104px;
+    margin-top: 32px;
+}
+
+.call-me-back > div {
+    position: absolute;
+    border: 2px solid #0044aa;
+    width: 288px;
+    padding: 8px;
+    box-shadow: 4px 4px 4px #aaaaaa69;
+    background: #0066ff;
+}
+
+.strip {
+    border: 2px solid #a0e0a0;
+    box-shadow: 2px 2px 4px #aaaaaa69;
+    background: #e0ffe0;
+}
+
+.strip-part {
+    border-right: 2px solid #a0e0a0;
+}
+
+.strip img {
+    padding: 16px 0 0 0;
+}
+
+.strip p {
+    padding: 16px;
+}
+
+.surname {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ffdd55;
+}
+
+.discription {
+    padding-top: 16px;
+    letter-spacing: 4px;
+    padding-bottom: 16px;
+    /*background: #00ff00;*/
+}
+
+p {
+    text-align: center;
+}
+
+
+.three-columns .card {
+    padding: 16px 32px 32px 32px;
+}
+
+textarea {
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    width: 100%;
+}
+
+.strip-on-map {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    background: #ffffffaa;
+    text-align: center;
+}
+
+.strip-on-map > div {
+    padding-bottom: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #696969;
+}
+
+.strip-on-map-h2 {
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+.convert-container {
+    height: 378px;
+}
+
+.convert-container img {
+    padding-top: 128px;
+}
+
+.card-title {
+    padding-bottom: 16px;
+    color: #696969;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.cooperation {
+    padding-bottom: 32px;
+}
